@@ -1,0 +1,27 @@
+.app-root-container {
+    margin: auto 20rem;
+}
+
+@media only screen and (max-width: 1440px) {
+    .app-root-container {
+        margin: auto 18rem;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .app-root-container {
+        margin: auto 15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .app-root-container {
+        margin: auto 10rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .app-root-container {
+        margin: auto 2rem;
+    }
+}

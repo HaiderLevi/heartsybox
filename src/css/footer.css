@@ -1,0 +1,187 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.footer-root {
+    margin-top: 15rem;
+    width: 100%;
+    background-color: var(--secondary);
+    min-height: 46.3rem;
+    padding: 6.5rem 25rem 6.5rem 20rem;
+    color: #FFF;
+}
+
+.footer-parent {
+    display: flex;
+}
+
+.footer-logo-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.2rem;
+    max-width: 36.4rem;
+    margin-right: auto;
+}
+
+.footer-logo {
+    width: 23.7rem;
+    height: 7.6rem;
+}
+
+.footer-logo-child p {
+    font-size: 16px;
+    /*left it in px because want same size on small screen as well */
+    font-weight: 500;
+    line-height: 2.2rem;
+    letter-spacing: 0.024rem;
+    text-transform: capitalize;
+}
+
+.footer-icons-list {
+    display: inline-flex;
+    column-gap: 1rem;
+    list-style: none;
+}
+
+.footer-menu {
+    line-height: 3.15rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    margin-right: 12rem;
+}
+
+.footer-menu h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.footer-menu-list {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4rem;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.footer-contact {
+    line-height: 3.15rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+}
+
+.footer-contact h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.footer-contact-list {
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.75rem;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.footer-contact-list>li:first-child {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.35rem;
+}
+
+.subscribe-text {
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+}
+
+.footer-contact-list input {
+    width: 37.7rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(210, 158, 132, 0.92);
+    background: rgba(240, 223, 214, 0.24);
+    backdrop-filter: blur(2px);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    letter-spacing: 0.04rem;
+    text-transform: capitalize;
+    padding-left: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact-list input::placeholder {
+    color: #FFF;
+}
+
+.footer-subscribe-btn {
+    width: 16.4rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    background: var(--primary);
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    border: none;
+}
+
+.bottom-banner {
+    background-color: black;
+    height: 6.5rem;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 1.8rem;
+    display: grid;
+    place-items: center;
+    letter-spacing: 0.07rem;
+}
+
+.bottom-banner p {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 1320px) {
+    .footer-root {
+        padding: 5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-root {
+        padding: 2rem;
+        margin-top: 10rem;
+    }
+
+    .footer-parent {
+        display: grid;
+        row-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-logo-child {
+        max-width: 100%;
+    }
+
+    .footer-child:first-child {
+        grid-column: 1 / span 2;
+    }
+
+    .footer-menu {
+        margin-right: 3rem;
+    }
+
+    .footer-menu-list, .footer-contact-list {
+        font-size: 14px;
+    }
+}

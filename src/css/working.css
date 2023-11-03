@@ -1,0 +1,452 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.working-header h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 7.2rem;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 2px dashed var(--primary);
+    margin-bottom: 5rem;
+    font-family: 'Cutive', serif;
+    padding-bottom: 1rem;
+}
+
+.main-working-step {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.8rem;
+    border-bottom: 2px dashed var(--primary);
+    cursor: pointer;
+}
+
+.main-working-step h1 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 6.2rem;
+    text-transform: uppercase;
+    font-family: 'Cutive', serif;
+}
+
+.working-design-main {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 15.2rem;
+    /* box-shadow: 0px 0px 6px 0px rgba(22, 22, 22, 0.04); */
+}
+
+.working-design-steps {
+    display: flex;
+    width: 70.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    flex-shrink: 0;
+    border-bottom: 2px dashed var(--primary);
+    height: max-content;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.working-design-steps:nth-child(1) {
+    padding-top: 0;
+}
+
+.step-header {
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: var(--primary);
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--primary);
+}
+
+.working-design-steps h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.working-design-steps h2>img {
+    position: relative;
+    top: 0.5rem;
+}
+
+.step-detail {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+}
+
+.working-design-image {
+    width: 46.6rem;
+    height: 69.7rem;
+    border-radius: 40rem;
+    background: linear-gradient(180deg, #F5C5D5 0%, #F5C7D6 100%);
+    position: relative;
+}
+
+.design-image {
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    height: 97.5%;
+}
+
+.design-image-icons {
+    display: flex;
+    padding: 2rem 4.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    position: absolute;
+    left: 9rem;
+    top: -4rem;
+    border-radius: 5.6rem;
+    background: #FFF;
+    box-shadow: 0.25px 0.5px 22px 0px rgba(21, 21, 21, 0.10);
+}
+
+/*****************************Note Section*************************************************/
+
+.note-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8.4rem;
+    gap: 3.6rem;
+    border-radius: 1rem;
+    border: 2px dashed var(--primary);
+    background: #F1F1F1;
+    margin-top: 5rem;
+}
+
+.note-detail {
+    margin: -1rem 0 0 0;
+    width: 62.5%;
+}
+
+.note-detail>* {
+    margin-top: 2rem;
+}
+
+.note-detail h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.note-detail p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    margin-bottom: 4rem;
+}
+
+.button-primary {
+    min-height: 8.4rem;
+    padding: 1rem 4.6rem;
+    border-radius: 1rem;
+    background: var(--primary);
+    color: #FFF;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3.1rem;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    color: var(--primary);
+    background: #FFF;
+    border: 1.5px solid var(--primary);
+    transition: 0.2s all ease;
+}
+
+.button-primary:hover .heart-svg {
+    fill: rgb(211, 12, 128) !important;
+    transition: 0.2s all ease;
+}
+
+.note-image {
+    width: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.note-image img {
+    width: 32rem;
+    height: 32rem;
+}
+
+/*********************************OR css******************************************************/
+
+.gift-order-main {
+    margin: 10rem auto 7rem auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.gift-order-main h1 {
+    color: var(--primary);
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 800;
+    z-index: 2;
+    background: #F6F6F6;
+    border-radius: 50%;
+    padding: 2.5rem;
+    border: 1px solid var(--primary);
+}
+
+.OR-line {
+    width: 69rem;
+    border: 1px solid var(--primary);
+    position: absolute;
+}
+
+
+/********************************Working step 2******************************************/
+.cards-root {
+    margin-top: 4.6rem;
+    display: flex;
+    padding: 4rem;
+    column-gap: 5.7rem;
+}
+
+.gift-text {
+    max-width: 54.7rem;
+    padding: 2rem 0;
+}
+
+.gift-text h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.gift-text p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+}
+
+.gift-text>* {
+    margin-bottom: 3.2rem;
+}
+
+.arrows-main {
+    float: right;
+    margin-bottom: 0;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.cards-main {
+    width: 83.4rem;
+    display: flex;
+    column-gap: 0.7rem;
+    row-gap: 3rem;
+    justify-content: space-between;
+}
+
+.card {
+    width: 27.5rem;
+    border-radius: 1rem;
+}
+
+.card-image {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    width: 100%;
+}
+
+.card-detail {
+    display: flex;
+    padding: 2.4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6rem;
+    background-color: #FFF;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 15px 15px -15px gray;
+}
+
+.card-detail h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.card-detail p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.card-detail p:last-child {
+    font-weight: 600;
+}
+
+.starting-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.starting-now p {
+    margin-right: auto;
+}
+
+.starting-now-svg-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 7rem;
+}
+
+.starting-now-span {
+    font-size: 1.8rem;
+    color: #FFF;
+    /* background-color: var(--primary); */
+    font-weight: 500;
+    line-height: 2.8rem;
+    height: auto;
+    padding: 0.3rem 1.2rem 0.3rem 3rem;
+    background-image: url('/PriceTag.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.add-to-cart {
+    display: flex;
+    column-gap: 0.7rem;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1640px) {
+    .working-design-steps {
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .working-design-main {
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0.5rem 0;
+        gap: 10rem;
+    }
+
+    .working-design-steps {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .working-header h1 {
+        font-size: 3.35rem;
+    }
+
+    .main-working-step h1 {
+        font-size: 2.7rem;
+    }
+
+    .step-header {
+        margin-top: 2rem;
+    }
+
+    .note-main {
+        flex-direction: column;
+        padding: 3rem;
+        margin-top: 8rem;
+    }
+
+    .note-detail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-primary {
+        padding: 1rem 2rem;
+        height: 6rem;
+        width: 100%;
+    }
+
+    .note-image {
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    .OR-line {
+        width: 55rem;
+    }
+
+    .cards-root {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        margin-top: -5rem;
+    }
+
+    .gift-text {
+        max-width: 100%;
+    }
+
+    .cards-main {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .card {
+        width: 50rem;
+        margin-inline: auto;
+    }
+
+    .card:nth-child(1) {
+        margin-top: 2rem;
+    }
+
+    .card-image {
+        height: 40rem;
+    }
+
+    .card-detail h2 {
+        font-size: 3rem;
+    }
+
+    .card-detail p {
+        font-size: 2.5rem;
+    }
+
+    .starting-now-span {
+        /* height: 4rem; */
+        font-size: 2.5rem;
+        padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .working-header h1 {
+        font-size: 3rem;
+    }
+}

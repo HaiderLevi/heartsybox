@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url(./fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+:root {
+  --primary: #D29E84;
+  --secondary: #415161;
+  --gilroy: Gilroy;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--secondary);
+  background: #F6F6F6;
+}
+
+.header-span {
+  color: var(--primary);
+  font-family: 'Cutive', serif;
+}
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  html {
+    font-size: 50%;
+  }
+}

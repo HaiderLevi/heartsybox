@@ -1,0 +1,140 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.main-custom-giftbox-section {
+    margin-top: 20rem;
+    min-height: 38rem;
+    border-radius: 2.4rem;
+    /* background: #E4CABD; */
+    background-image: url('/form-box.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.custom-giftbox-parent {
+    display: flex;
+    column-gap: 3rem;
+    height: 100%;
+    position: relative;
+}
+
+.custom-giftbox-header {
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 7.2rem;
+    max-width: 45rem;
+}
+
+.custom-giftbox-child {
+    width: 50%;
+}
+
+.giftbox-child1 {
+    display: flex;
+    align-items: center;
+    padding-left: 8rem;
+}
+
+.giftbox-child2 {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.gift-box {
+    width: 7.6rem;
+    height: 7.6rem;
+    margin-top: 7rem;
+    margin-left: -3rem;
+}
+
+.giftbox-image {
+    position: absolute;
+    right: -10rem;
+    top: -15rem;
+}
+
+.input-giftbox {
+    border-radius: 0.8rem;
+    background: #F1F1F1;
+    /* width: 53.6rem; */
+    width: 75%;
+    height: 6.8rem;
+    padding-left: 2.3rem;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+    color: var(--primary);
+    font-size: 2rem;
+}
+
+.input-button-primary {
+    min-height: 7rem;
+    padding: 1rem 3.6rem;
+    border-radius: 1rem;
+    background: var(--primary);
+    color: #FFF;
+    font-weight: 600;
+    line-height: 3.1rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 2.4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.input-button-primary:hover {
+    color: var(--primary);
+    background: #FFF;
+    border: 1.5px solid var(--primary);
+    transition: 0.2s all ease;
+}
+
+.input-button-primary:hover .heart-svg {
+    fill: rgb(211, 12, 128) !important;
+    transition: 0.2s all ease;
+}
+
+@media only screen and (max-width: 1240px) {
+    .custom-giftbox-parent {
+        flex-direction: column;
+    }
+
+    .custom-giftbox-child {
+        width: 100%;
+    }
+
+    .giftbox-child1 {
+        margin-top: 3rem;
+    }
+
+    .giftbox-child2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-giftbox-header {
+        max-width: 70%;
+    }
+
+    .giftbox-image {
+        width: 20rem;
+        right: 0;
+        top: -10rem;
+    }
+
+    .gift-box {
+        width: 6.6rem;
+        height: 6.6rem;
+        margin-top: 14rem;
+        margin-left: -5rem;
+    }
+}

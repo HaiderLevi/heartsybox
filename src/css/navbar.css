@@ -1,0 +1,239 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+/*****************************************Top Banner ***************************************************/
+.top-banner-main {
+    padding: 2rem 0;
+}
+
+.top-banner-parent {
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.top-banner-child {
+    display: flex;
+    align-items: center;
+}
+
+.top-banner-logo {
+    margin-right: 25rem;
+}
+
+.top-banner-shipping {
+    gap: 2.4rem;
+}
+
+.top-banner-support {
+    gap: 2rem;
+}
+
+.top-banner-shopping {
+    gap: 1.6rem;
+}
+
+.top-banner-primary-text {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+.banner-vertical-separator {
+    border-left: 2px dashed var(--primary);
+    margin-inline: auto;
+    height: 3.6rem;
+    align-self: center;
+}
+
+/*****************************************Navbar ***************************************************/
+
+.main-nav {
+    margin-bottom: 3rem;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed var(--primary);
+    border-top: 2px dashed var(--primary);
+    padding: 3.2rem 0;
+    width: 100%;
+}
+
+.nav-menu-list {
+    list-style: none;
+    display: inline-flex;
+    column-gap: 1.8rem;
+}
+
+.nav-menu-list-item {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.15rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    padding: 1.5rem 2.5rem;
+}
+
+.nav-menu-list-item a {
+    text-decoration: none;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.nav-active-tab {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: url('/active-tab-bg.png');
+    background-size: 100% 100%;
+}
+
+.nav-active-tab>a {
+    color: white !important;
+}
+
+.nav-search-menu {
+    position: relative;
+}
+
+.nav-search-input {
+    border: 0.1rem solid var(--primary);
+    border-radius: 0.5rem;
+}
+
+.nav-menu-search-item {
+    color: var(--primary);
+    background: transparent;
+    padding: 1rem 3.2rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    width: 51.3rem;
+    height: 6.4rem;
+}
+
+::placeholder {
+    color: var(--primary);
+    opacity: 1;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.15rem;
+    letter-spacing: 0.03rem;
+    padding-left: 2rem;
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: var(--primary);
+    opacity: 1;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.15rem;
+    letter-spacing: 0.03rem;
+    padding-left: 2rem;
+}
+
+.nav-search-icon {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 3rem;
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 1640px) {
+    .top-banner-logo {
+        margin-right: auto;
+    }
+
+    .nav-menu-list {
+        column-gap: 0.5rem;
+    }
+
+    .nav-menu-list-item {
+        font-size: 1.6rem;
+        padding: 1.2rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .nav-menu-search-item {
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .nav-menu-search-item {
+        font-size: 2rem;
+        width: 35rem;
+    }
+
+    .top-banner-parent {
+        flex-direction: column;
+    }
+
+    .top-banner-child {
+        width: 100%;
+        border-bottom: 2px dashed var(--primary);
+        padding-bottom: 1rem;
+    }
+
+    .top-banner-support {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .top-banner-shopping {
+        padding-top: 1rem;
+    }
+
+    .top-banner-child:last-child {
+        border-bottom: none;
+    }
+
+    .top-banner-logo {
+        justify-content: center;
+    }
+
+    .banner-vertical-separator {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+    .top-banner-main {
+        padding: 0.5rem 0;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 2rem;
+        padding: 3.2rem 0;
+        width: 100%;
+    }
+
+    .nav-menu-list {
+        column-gap: 1.5rem;
+    }
+
+    .nav-menu-search-item {
+        width: 50rem;
+    }
+}

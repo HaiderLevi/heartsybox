@@ -1,0 +1,126 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.main-sale {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-inline: auto;
+    margin-top: 10rem;
+    font-size: large;
+    color: black;
+}
+
+.sale-menu {
+    height: 43rem;
+    /* border: 1px solid red; */
+    border-radius: 1.5rem;
+}
+
+.sale-menu1 {
+    background-image: url('/sale-menu1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 58%;
+}
+
+.sale-menu2 {
+    background-image: url('/sale-menu2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+}
+
+.sale-menu-text {
+    margin-top: 12.5rem;
+    margin-left: 14rem;
+    /* border: 1px solid red; */
+    width: max-content;
+    text-align: center;
+}
+
+.sale-menu-text p:first-of-type {
+    font-size: 2.7rem;
+}
+
+.sale-menu-text h1 {
+    font-size: 5.5rem;
+    margin-top: 0.8rem;
+}
+
+.sale-shop-now {
+    text-transform: uppercase;
+    border-bottom: 2px dashed var(--primary);
+    display: inline-block;
+    line-height: normal;
+    margin-top: 5.5rem;
+    font-size: 2rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.sale-menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.2rem;
+}
+
+.sale-menu2-inner {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.sale-menu2-inner p:first-of-type {
+    font-size: 2.7rem;
+}
+
+.sale-menu2-inner h1 {
+    font-size: 5rem;
+    margin-top: 0.8rem;
+}
+
+.sale-code {
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid black;
+    display: inline-block;
+    line-height: normal;
+    margin-top: 2.5rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .main-sale {
+        flex-direction: column;
+    }
+
+    .sale-menu1 {
+        width: 100%;
+    }
+
+    .sale-menu2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    .sale-menu-text {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sale-menu2 {
+        padding: 4rem;
+    }
+}

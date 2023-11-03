@@ -1,0 +1,130 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.main-giftpicker-section {
+    margin-top: 10rem;
+    padding: 5rem;
+    border-radius: 1rem;
+    border: 2px dashed var(--primary);
+    background: #F1F1F1;
+}
+
+.giftpicker-header {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 7.2rem;
+    text-transform: uppercase;
+    border-bottom: 2px dashed var(--primary);
+    width: fit-content;
+    margin-inline: auto;
+    font-family: 'Cutive', serif;
+    padding-bottom: 1rem;
+}
+
+.giftpicker-parent {
+    margin-top: 5.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giftpicker-child {
+    padding: 3rem auto;
+}
+
+.giftpicker-child:nth-child(1) {
+    width: 50rem;
+}
+
+.giftpicker-child:nth-child(2) {
+    width: 65rem;
+    align-self: center;
+}
+
+.giftpicker-image {
+    width: 100%;
+    height: auto;
+}
+
+.giftpicker-child:nth-child(2) h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+
+.giftpicker-child:nth-child(2) p {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+    margin-bottom: 3.8rem;
+}
+
+.button-primary {
+    min-height: 8.4rem;
+    padding: 1rem 4.6rem;
+    border-radius: 1rem;
+    background: var(--primary);
+    color: #FFF;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.1rem;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    color: var(--primary);
+    background: #FFF;
+    border: 1.5px solid var(--primary);
+    transition: 0.2s all ease;
+}
+
+.button-primary:hover .heart-svg {
+    fill: rgb(211, 12, 128) !important;
+    transition: 0.2s all ease;
+}
+
+.giftpicker-button-section {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.giftpicker-button-section img {
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .giftpicker-child:nth-child(1) {
+        width: 40rem;
+    }
+
+    .giftpicker-child:nth-child(2) {
+        width: 60rem;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .giftpicker-parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .giftpicker-header {
+        font-size: 3rem;
+    }
+
+    .giftpicker-child:nth-child(2) {
+        width: 50rem;
+    }
+}

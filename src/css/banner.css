@@ -1,0 +1,78 @@
+:root {
+    --primary: #D29E84;
+    --secondary: #415161;
+    --gilroy: Gilroy;
+}
+
+.main-banner {
+    background-image: url('/bannerBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 62.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+.banner-menu h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Cutive;
+    font-weight: 400;
+    line-height: 6.6rem;
+    font-family: 'Cutive', serif;
+}
+
+.primary-color {
+    color: var(--primary);
+    font-family: 'Cutive', serif;
+}
+
+.lovebox-button {
+    background-color: var(--primary);
+    margin-top: 7rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    height: 8.4rem;
+    padding: 1rem 4.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    color: #FFF;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3.15rem;
+    margin-inline: auto;
+    font-weight: 600;
+}
+
+.lovebox-button:hover {
+    color: var(--primary);
+    background: #FFF;
+    border: 1.5px solid var(--primary);
+    transition: 0.2s all ease;
+}
+
+.lovebox-button:hover .heart-svg {
+    fill: rgb(211, 12, 128) !important;
+    transition: 0.2s all ease;
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner-menu h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-menu h1 {
+        font-size: 3rem;
+    }
+}
