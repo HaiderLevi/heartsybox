@@ -25,3 +25,9 @@
         margin: auto 2rem;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .app-root-container {
+        margin: auto 0.5rem;
+    }
+}

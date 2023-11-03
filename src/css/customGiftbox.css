@@ -138,3 +138,11 @@
         margin-left: -5rem;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .custom-giftbox-header {
+        font-size: 4rem;
+        line-height: 4rem;
+        max-width: auto;
+    }
+}

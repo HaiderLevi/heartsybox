@@ -185,3 +185,14 @@
         font-size: 14px;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .footer-logo-child p {
+        font-size: 12px;
+    }
+
+    .footer-contact-list input {
+        width: 22rem;
+    }
+}
