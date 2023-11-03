@@ -461,4 +461,9 @@
     .OR-line {
         width: 40rem;
     }
+
+    .working-design-image {
+        width: 40rem;
+        height: 60rem;
+    }
 }
