@@ -150,4 +150,9 @@
     .giftpack-child-odd:first-child {
         width: 45rem;
     }
+
+    .giftpack-image {
+        width: 40rem;
+        margin-inline: auto;
+    }
 }
