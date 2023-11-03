@@ -140,3 +140,14 @@
         flex-direction: column-reverse;
     }
 }
+
+@media only screen and (max-width: 480px) {
+
+    .giftpack-child:last-child {
+        width: 45rem;
+    }
+
+    .giftpack-child-odd:first-child {
+        width: 45rem;
+    }
+}
