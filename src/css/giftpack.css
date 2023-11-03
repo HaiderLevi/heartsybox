@@ -144,15 +144,15 @@
 @media only screen and (max-width: 480px) {
 
     .giftpack-child:last-child {
-        width: 45rem;
+        width: 100%;
     }
 
     .giftpack-child-odd:first-child {
-        width: 45rem;
+        width: 100%;
     }
 
     .giftpack-image {
-        width: 40rem;
+        width: 100%;
         margin-inline: auto;
     }
 }
