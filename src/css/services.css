@@ -69,7 +69,7 @@
     letter-spacing: 0.03rem;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1400px) {
     .main-services {
         justify-content: center;
         align-items: center;
@@ -102,5 +102,45 @@
     .services-gifts-img, .services-ribbon-img {
         top: 2rem;
         left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .services {
+        width: 70%;
+    }
+
+    .services:nth-child(2) {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .services {
+        width: 80%;
+    }
+
+    .services:nth-child(2) {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .services {
+        width: 90%;
+    }
+
+    .services:nth-child(2) {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .services {
+        width: 100%;
+    }
+
+    .services:nth-child(2) {
+        width: 100%;
     }
 }

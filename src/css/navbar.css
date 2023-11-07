@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     color: var(--secondary);
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
 }
@@ -41,7 +41,7 @@
 
 .top-banner-primary-text {
     color: var(--primary);
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 0.6rem;
 }
@@ -117,7 +117,7 @@
 .nav-menu-search-item {
     color: var(--primary);
     background: transparent;
-    padding: 1rem 3.2rem;
+    padding: 1rem 3.2rem 1rem 5rem;
     outline: none;
     border: none;
     font-size: 2rem;
@@ -133,7 +133,6 @@
     font-weight: 500;
     line-height: 3.15rem;
     letter-spacing: 0.03rem;
-    padding-left: 2rem;
 }
 
 ::-ms-input-placeholder {
@@ -156,9 +155,35 @@
     color: var(--primary);
 }
 
-@media only screen and (max-width: 1640px) {
+@media only screen and (max-width: 1750px) {
     .top-banner-logo {
         margin-right: auto;
+    }
+
+    .nav-menu-search-item {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .top-banner-parent {
+        font-size: 1.6rem;
+    }
+
+    .top-banner-primary-text {
+        font-size: 1.6rem;
+    }
+
+    .top-banner-shipping {
+        gap: 1.2rem;
+    }
+
+    .top-banner-support {
+        gap: 0.8rem;
+    }
+
+    .top-banner-shopping {
+        gap: 0.4rem;
     }
 
     .nav-menu-list {
@@ -171,13 +196,7 @@
     }
 }
 
-@media only screen and (max-width: 1340px) {
-    .nav-menu-search-item {
-        width: 40rem;
-    }
-}
-
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1200px) {
     .nav-menu-search-item {
         font-size: 2rem;
         width: 35rem;
@@ -216,7 +235,7 @@
 
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 992px) {
     .top-banner-main {
         padding: 0.5rem 0;
     }
@@ -225,12 +244,16 @@
         flex-direction: column;
         align-items: flex-start;
         row-gap: 2rem;
-        padding: 3.2rem 0;
+        padding: 1.5rem 0;
+    }
+
+    .nav-tabs-menu {
         width: 100%;
     }
 
     .nav-menu-list {
-        column-gap: 1.5rem;
+        justify-content: space-between;
+        display: flex;
     }
 
     .nav-menu-search-item {
@@ -238,34 +261,70 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .top-banner-main {
         padding: 0.5rem 0;
     }
 
     .top-banner-parent {
-        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .top-banner-primary-text {
+        font-size: 1.6rem;
+    }
+
+    .top-banner-shipping>img {
+        margin-top: 2rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .top-banner-support>img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .top-banner-shopping>img {
+        width: 5rem;
+        height: 5rem;
     }
 
     .nav-menu {
         flex-direction: column;
         align-items: flex-start;
         row-gap: 2rem;
-        padding: 3.2rem 0;
+        padding: 1.5rem 0;
+    }
+
+    .nav-tabs-menu {
         width: 100%;
     }
 
     .nav-menu-list {
-        column-gap: 0.5rem;
+        justify-content: space-between;
+        display: flex;
     }
 
     .nav-menu-list-item {
-        font-size: 1.6rem;
-        padding: 1.2rem 0.5rem;
+        font-size: 1.2rem;
     }
 
     .nav-menu-search-item {
-        width: 40rem;
+        width: 100%;
+        height: 5rem;
     }
 
+    .nav-search-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 1.5rem;
+        left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-menu-list {
+        flex-wrap: wrap;
+    }
 }

@@ -50,7 +50,6 @@
     font-weight: 500;
     line-height: 3.15rem;
     margin-inline: auto;
-    font-weight: 600;
 }
 
 .lovebox-button:hover {
@@ -72,7 +71,29 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .main-banner {
+        height: 40rem;
+    }
+
     .banner-menu h1 {
         font-size: 3rem;
+    }
+
+    .lovebox-button {
+        height: 7rem;
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .lovebox-button {
+        height: 7rem;
+        font-size: 2rem;
+    }
+
+    .banner-menu h1 {
+        font-size: 2rem;
     }
 }

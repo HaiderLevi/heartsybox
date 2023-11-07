@@ -65,16 +65,16 @@ const Working = () => {
               </div>
             </div>
             <div className="working-design-image">
-              <span className="design-image-icons">
-                <img src="/rose.png" alt="rose" />
-                <img src="/chocolate.png" alt="chocolate" />
-                <img src="/heart.png" alt="heart" />
-              </span>
               <img
                 src="/step-image.png"
                 alt="step-image"
                 className="design-image"
               />
+              <span className="design-image-icons">
+                <img src="/rose.png" alt="rose" />
+                <img src="/chocolate.png" alt="chocolate" />
+                <img src="/heart.png" alt="heart" />
+              </span>
             </div>
           </div>
         )}

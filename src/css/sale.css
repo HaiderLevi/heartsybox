@@ -99,7 +99,7 @@
     letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1400px) {
     .main-sale {
         flex-direction: column;
     }

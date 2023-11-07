@@ -21,6 +21,7 @@
 .main-working-step {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 4.8rem;
     border-bottom: 2px dashed var(--primary);
     cursor: pointer;
@@ -345,7 +346,7 @@
     }
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1400px) {
     .working-design-main {
         align-items: center;
         flex-wrap: wrap;
@@ -445,25 +446,70 @@
     }
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 992px) {
     .working-header h1 {
         font-size: 3rem;
+    }
+
+    .main-working-step h1 {
+        font-size: 3rem;
+    }
+
+    .working-design-steps h2 {
+        font-size: 2.8rem;
     }
 }
 
 
 @media only screen and (max-width: 480px) {
+    .working-header h1 {
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .main-working-step h1 {
+        font-size: 2.2rem;
+    }
+
+    .working-design-steps h2 {
+        font-size: 2rem;
+    }
+
+    .step-detail {
+        font-size: 1.8rem;
+    }
+
     .button-primary {
-        font-size: 2.8rem;
+        height: 7rem;
+        font-size: 2rem;
         padding: 1rem 2rem;
+        font-weight: 500;
     }
 
     .OR-line {
-        width: 40rem;
+        width: 50%;
     }
 
     .working-design-image {
-        width: 45rem;
-        height: 60rem;
+        width: 100%;
+        height: 55rem;
+    }
+
+    .design-image-icons {
+        left: 5.5rem;
+    }
+
+    .note-main {
+        padding: 3rem 1.5rem;
+    }
+
+    .note-detail h1 {
+        font-size: 2.8rem;
+    }
+
+    .note-detail p {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
     }
 }

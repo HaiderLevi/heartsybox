@@ -1,20 +1,14 @@
 .app-root-container {
-    margin: auto 20rem;
+    margin: auto 18rem;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1200px) {
     .app-root-container {
-        margin: auto 18rem;
+        margin: auto 14rem;
     }
 }
 
-@media only screen and (max-width: 1240px) {
-    .app-root-container {
-        margin: auto 15rem;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 992px) {
     .app-root-container {
         margin: auto 10rem;
     }
@@ -22,12 +16,18 @@
 
 @media only screen and (max-width: 768px) {
     .app-root-container {
-        margin: auto 2rem;
+        margin: auto 6rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .app-root-container {
+        margin: auto 3rem;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .app-root-container {
-        margin: auto 0.5rem;
+        margin: auto 2rem;
     }
 }
