@@ -4,6 +4,33 @@ import "./../css/working.css";
 const Working = () => {
   const [showWorkingStep1, setShowWorkingStep1] = useState(true);
   const [showWorkingStep2, setShowWorkingStep2] = useState(true);
+  const [showActiveCard1, setshowActiveCard1] = useState(true);
+  const [showActiveCard2, setshowActiveCard2] = useState(false);
+  const [showActiveCard3, setshowActiveCard3] = useState(false);
+
+  const makeLeftCardActive = () => {
+    if (showActiveCard1) {
+      setshowActiveCard1(true);
+    } else if (showActiveCard2) {
+      setshowActiveCard1(true);
+      setshowActiveCard2(false);
+    } else {
+      setshowActiveCard2(true);
+      setshowActiveCard3(false);
+    }
+  };
+
+  const makeRightCardActive = () => {
+    if (showActiveCard1) {
+      setshowActiveCard2(true);
+      setshowActiveCard1(false);
+    } else if (showActiveCard2) {
+      setshowActiveCard3(true);
+      setshowActiveCard2(false);
+    } else {
+      setshowActiveCard3(true);
+    }
+  };
 
   return (
     <>
@@ -148,8 +175,16 @@ const Working = () => {
                 </svg>
               </button>
               <div className="arrows-main">
-                <img src="/LeftArrow.png" alt="leftArrow" />
-                <img src="/RightArrow.png" alt="rightArrow" />
+                <img
+                  src="/LeftArrow.png"
+                  alt="leftArrow"
+                  onClick={makeLeftCardActive}
+                />
+                <img
+                  src="/RightArrow.png"
+                  alt="rightArrow"
+                  onClick={makeRightCardActive}
+                />
               </div>
             </div>
             <div className="cards-main">
@@ -178,10 +213,12 @@ const Working = () => {
                     <span className="starting-now-svg-dot"></span>
                     <span className="starting-now-span">$34.0</span>
                   </div>
-                  <div className="add-to-cart">
-                    <img src="/shopping-cart.png" alt="shopping-cart-icon" />
-                    <p>Add to cart</p>
-                  </div>
+                  {showActiveCard1 && (
+                    <div className="add-to-cart">
+                      <img src="/shopping-cart.png" alt="shopping-cart-icon" />
+                      <p>Add to cart</p>
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="card">
@@ -209,6 +246,13 @@ const Working = () => {
                     <span className="starting-now-svg-dot"></span>
                     <span className="starting-now-span">$30.0</span>
                   </div>
+
+                  {showActiveCard2 && (
+                    <div className="add-to-cart">
+                      <img src="/shopping-cart.png" alt="shopping-cart-icon" />
+                      <p>Add to cart</p>
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="card">
@@ -236,6 +280,12 @@ const Working = () => {
                     <span className="starting-now-svg-dot"></span>
                     <span className="starting-now-span">$25.0</span>
                   </div>
+                  {showActiveCard3 && (
+                    <div className="add-to-cart">
+                      <img src="/shopping-cart.png" alt="shopping-cart-icon" />
+                      <p>Add to cart</p>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
