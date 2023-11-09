@@ -135,12 +135,20 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
     .services {
         width: 100%;
     }
 
     .services:nth-child(2) {
         width: 100%;
+    }
+
+    .services h1 {
+        font-size: 2.2rem;
+    }
+
+    .services p {
+        font-size: 1.6rem;
     }
 }

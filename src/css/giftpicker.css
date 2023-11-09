@@ -104,7 +104,7 @@
     height: 70px;
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1400px) {
     .giftpicker-child:nth-child(1) {
         width: 40rem;
     }
@@ -114,10 +114,26 @@
     }
 }
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1200px) {
+    .giftpicker-header {
+        font-size: 3.2rem;
+    }
+
+    .giftpicker-child:nth-child(2) h1 {
+        font-size: 3rem;
+    }
+
+    .giftpicker-child:nth-child(2) p {
+        font-size: 2.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
     .giftpicker-parent {
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
     }
 
     .giftpicker-header {
@@ -125,17 +141,50 @@
     }
 
     .giftpicker-child:nth-child(2) {
-        width: 50rem;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 480px) {
+    .main-giftpicker-section {
+        padding: 2rem;
+        margin-top: 7rem;
+    }
+
+    .giftpicker-header {
+        font-size: 2rem;
+        line-height: 5rem;
+    }
+
+    .giftpicker-parent {
+        row-gap: 2rem;
+    }
+
+    .giftpicker-child:nth-child(1) {
+        width: 85%;
+    }
+
     .giftpicker-child:nth-child(2) {
         width: 100%;
     }
 
+    .giftpicker-button-section {
+        gap: 1.5rem;
+    }
+
     .button-primary {
-        font-size: 2.8rem;
-        padding: 1rem 2rem;
+        font-size: 2.4rem;
+        padding: 1rem;
+    }
+
+    .giftpicker-child:nth-child(2) h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .giftpicker-child:nth-child(2) p {
+        font-size: 1.8rem;
+        line-height: normal;
+        margin-bottom: 2rem;
     }
 }

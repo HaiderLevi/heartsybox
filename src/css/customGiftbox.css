@@ -102,7 +102,32 @@
     transition: 0.2s all ease;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1400px) {
+    .custom-giftbox-header {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .giftbox-image {
+        width: 22rem;
+        top: -13rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .custom-giftbox-header {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .gift-box {
+        width: 7rem;
+        height: 7rem;
+        margin-left: -4rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .custom-giftbox-parent {
         flex-direction: column;
     }
@@ -137,12 +162,34 @@
         margin-top: 14rem;
         margin-left: -5rem;
     }
+
+    .giftbox-image {
+        width: 20rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    .main-custom-giftbox-section {
+        margin-top: 12rem;
+    }
+
     .custom-giftbox-header {
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 4rem;
         max-width: auto;
+    }
+
+    .giftbox-child2 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .input-giftbox {
+        width: 85%;
+        height: 6.8rem;
+    }
+
+    .giftbox-image {
+        width: 18rem;
     }
 }

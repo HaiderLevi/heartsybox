@@ -200,9 +200,9 @@
 }
 
 @media only screen and (max-width: 576px) {
-
     .main-sale {
         flex-direction: column;
+        margin-top: 7rem;
     }
 
     .sale-menu1 {

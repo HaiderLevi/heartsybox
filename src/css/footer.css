@@ -151,13 +151,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1400px) {
     .footer-root {
         padding: 5rem;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
     .footer-root {
         padding: 2rem;
         margin-top: 10rem;
@@ -187,12 +187,37 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
+    .footer-root {
+        margin-top: 7rem;
+    }
+
     .footer-logo-child p {
         font-size: 12px;
     }
 
+    .footer-menu-list, .footer-contact-list {
+        font-size: 1.4rem;
+        row-gap: 0.5rem;
+    }
+
+    .footer-contact h3, .footer-menu h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
     .footer-contact-list input {
-        width: 22rem;
+        width: 20rem;
+    }
+
+    .footer-subscribe-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.6rem;
+    }
+
+    .bottom-banner {
+        height: 6.5rem;
+        font-size: 1.4rem;
     }
 }
