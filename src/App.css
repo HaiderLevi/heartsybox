@@ -1,8 +1,16 @@
 .app-root-container {
-    margin: auto 18rem;
+    margin: auto;
+    width: 80%;
+    max-width: 200rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 480px) {
+    .app-root-container {
+        width: 90%;
+    }
+}
+
+/* @media only screen and (max-width: 1200px) {
     .app-root-container {
         margin: auto 14rem;
     }
@@ -30,4 +38,4 @@
     .app-root-container {
         margin: auto 2rem;
     }
-}
+} */
