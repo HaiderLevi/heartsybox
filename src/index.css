@@ -7,6 +7,11 @@
   src: local('Gilroy'), url(./fonts/Gilroy-Medium.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Tangerine';
+  src: local('Tangerine'), url(./fonts/tangerine-webfont.ttf) format('truetype');
+}
+
 :root {
   --primary: #D29E84;
   --secondary: #415161;
@@ -29,9 +34,13 @@ body {
   background: #F6F6F6;
 }
 
+h1 {
+  font-family: 'Tangerine';
+}
+
 .header-span {
   color: var(--primary);
-  font-family: 'Cutive', serif;
+  font-family: 'Tangerine';
 }
 
 @media only screen and (max-width: 1440px) {

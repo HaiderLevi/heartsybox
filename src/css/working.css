@@ -4,17 +4,20 @@
     --gilroy: Gilroy;
 }
 
+.main-working {
+    margin-top: 10rem;
+}
+
 .working-header h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 7.6rem;
     font-weight: 400;
     line-height: 7.2rem;
     text-transform: uppercase;
     width: fit-content;
     margin: auto;
-    border-bottom: 2px dashed var(--primary);
+    /* border-bottom: 2px dashed var(--primary); */
     margin-bottom: 5rem;
-    font-family: 'Cutive', serif;
     padding-bottom: 1rem;
 }
 
@@ -28,11 +31,9 @@
 }
 
 .main-working-step h1 {
-    font-size: 3.4rem;
+    font-size: 5.6rem;
     font-weight: 400;
     line-height: 6.2rem;
-    text-transform: uppercase;
-    font-family: 'Cutive', serif;
 }
 
 .working-design-main {
@@ -139,6 +140,7 @@
 .note-detail h1 {
     font-size: 4.2rem;
     font-weight: 700;
+    font-family: 'Gilroy';
 }
 
 .note-detail p {
@@ -233,6 +235,7 @@
 .gift-text h1 {
     font-size: 4.2rem;
     font-weight: 700;
+    font-family: 'Gilroy';
 }
 
 .gift-text p {

@@ -45,7 +45,7 @@ const Working = () => {
           onClick={() => setShowWorkingStep1(!showWorkingStep1)}
         >
           <h1>
-            1. Design a <span className="header-span">gift box</span>
+            1.Design A <span className="header-span">Gift Box</span>
           </h1>
           <img src="/mingcute_down-line.png" alt="downward-arrow" />
         </div>
@@ -145,7 +145,7 @@ const Working = () => {
           onClick={() => setShowWorkingStep2(!showWorkingStep2)}
         >
           <h1>
-            2. Just order <span className="header-span">a gift</span>
+            2.Just Order <span className="header-span">A Gift</span>
           </h1>
           <img src="/mingcute_down-line.png" alt="downward-arrow" />
         </div>

@@ -6,10 +6,10 @@ const Banner = () => {
       <section className="main-banner">
         <div className="banner-menu">
           <h1>
-            Build a custom <span className="primary-color">Gift box</span>.
+            Build a custom <span className="primary-color">gift box</span>.
             <br />
-            Send the <span className="primary-color">Perfect Gift</span>,
-            Everytime.
+            Send the <span className="primary-color">perfect gift</span>, every
+            time.
           </h1>
           <button type="button" className="lovebox-button">
             Send a Love Box
