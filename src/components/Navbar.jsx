@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./../css/navbar.css";
 
 const Navbar = () => {
+  const [showNavList, setShowNavList] = useState(false);
   return (
     <>
       <section className="top-banner-main">
@@ -74,23 +76,42 @@ const Navbar = () => {
 
       <nav className="mobile-nav">
         <div className="mobile-nav-main">
-          <ul className="mobile-nav-list">
-            <li className="mobile-nav-list-item">
-              <a href="#">Home</a>
-            </li>
-            <li className="mobile-nav-list-item">
-              <a href="#">Gifts</a>
-            </li>
-            <li className="mobile-nav-list-item">
-              <a href="#">GiftsPicker</a>
-            </li>
-            <li className="mobile-nav-list-item">
-              <a href="#">Blog</a>
-            </li>
-            <li className="mobile-nav-list-item">
-              <a href="#">Contact</a>
-            </li>
-          </ul>
+          <div className="mobile-top-banner">
+            <div className="mobile-cart">
+              <img src="/shopping-cart-big.png" alt="shopping-cart" />
+            </div>
+            <div className="mobile-logo">
+              <img src="/Heartsybox-Logo.svg" alt="Heartsybox-Logo" />
+            </div>
+            <div className="mobile-hamburger">
+              <img
+                src="/hamburger-nav.svg"
+                alt="hamburger-nav"
+                onClick={() => {
+                  setShowNavList(!showNavList);
+                }}
+              />
+            </div>
+          </div>
+          {showNavList && (
+            <ul className="mobile-nav-list">
+              <li className="mobile-nav-list-item mobile-nav-active-tab">
+                <a href="#">Home</a>
+              </li>
+              <li className="mobile-nav-list-item">
+                <a href="#">Gifts</a>
+              </li>
+              <li className="mobile-nav-list-item">
+                <a href="#">GiftsPicker</a>
+              </li>
+              <li className="mobile-nav-list-item">
+                <a href="#">Blog</a>
+              </li>
+              <li className="mobile-nav-list-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          )}
         </div>
       </nav>
     </>

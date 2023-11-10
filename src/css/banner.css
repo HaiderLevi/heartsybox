@@ -85,7 +85,11 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
+    .main-banner {
+        margin-top: 2rem;
+    }
+
     .lovebox-button {
         height: 7rem;
         font-size: 2rem;

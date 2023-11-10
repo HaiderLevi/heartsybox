@@ -157,8 +157,99 @@
 /************************************Mobile Nav***********************************************/
 .mobile-nav {
     display: none;
+    background: #F6F6F6;
+    padding-top: 2rem;
+    margin-left: -0.2rem;
 }
 
+.mobile-nav-main {
+    position: relative;
+}
+
+.mobile-top-banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mobile-cart {
+    width: 20%;
+}
+
+.mobile-logo {
+    width: 50%;
+    margin-right: 4rem;
+    margin-top: -3rem;
+}
+
+.mobile-hamburger {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-cart img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.mobile-logo img {
+    width: 100%;
+}
+
+.mobile-hamburger {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.mobile-nav-list {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+    column-gap: 1.8rem;
+    width: 100%;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: absolute;
+    z-index: 1;
+    background: #F6F6F6;
+    outline: none;
+    border: none;
+}
+
+.mobile-nav-list-item {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    padding: 2rem 1rem;
+    width: 10rem;
+}
+
+.mobile-nav-list-item a {
+    text-decoration: none;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.mobile-nav-active-tab {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: url('/active-tab-bg.png');
+    /* background-color: var(--primary); */
+    background-size: 100% 100%;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mobile-nav-active-tab>a {
+    color: white !important;
+}
 
 @media only screen and (max-width: 1750px) {
     .top-banner-logo {
@@ -330,9 +421,20 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .top-banner-parent, .main-nav {
+        display: none;
+    }
+
     .top-banner-logo img {
         width: 20rem;
         height: 6rem;
+    }
+
+    .mobile-nav {
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top: 0;
     }
 }
 
