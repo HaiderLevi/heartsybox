@@ -1,12 +1,11 @@
 :root {
     --primary: #D29E84;
     --secondary: #415161;
-    --gilroy: Gilroy;
 }
 
 .giftpack-header {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6.4rem;
     font-weight: 400;
     line-height: 7.2rem;
     text-transform: uppercase;
@@ -14,6 +13,10 @@
     width: fit-content;
     margin-inline: auto;
     padding-bottom: 1rem;
+}
+
+.giftpack-header>span {
+    font-family: 'Tangerine';
 }
 
 .giftpack-parent {
@@ -70,6 +73,7 @@
 .giftpack-child h1 {
     font-size: 4.2rem;
     font-weight: 700;
+    font-family: 'Gilroy';
 }
 
 .giftpack-child p {
@@ -101,19 +105,28 @@
 }
 
 .button-primary:hover {
-    color: var(--primary);
-    background: #FFF;
-    border: 1.5px solid var(--primary);
+    color: rgb(211, 86, 148);
+    background: #000;
+    border: 1.5px solid rgb(211, 86, 148);
     transition: 0.2s all ease;
 }
 
 .button-primary:hover .heart-svg {
-    fill: rgb(211, 12, 128) !important;
+    fill: rgb(211, 86, 148) !important;
     transition: 0.2s all ease;
 }
 
-
 @media only screen and (max-width: 1200px) {
+    .giftpack-header {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .giftpack-header {
+        font-size: 3.6rem;
+    }
+
     .giftpack-parent {
         flex-direction: column;
         justify-content: flex-start;
@@ -183,6 +196,7 @@
 @media only screen and (max-width: 480px) {
     .giftpack-header {
         font-size: 2.8rem;
+        line-height: 2rem;
     }
 
     .giftpack-child h1 {

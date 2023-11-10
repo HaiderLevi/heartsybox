@@ -1,7 +1,6 @@
 :root {
     --primary: #D29E84;
     --secondary: #415161;
-    --gilroy: Gilroy;
 }
 
 .main-sale {
@@ -49,6 +48,7 @@
 .sale-menu-text h1 {
     font-size: 5.5rem;
     margin-top: 0.8rem;
+    font-family: 'Gilroy';
 }
 
 .sale-shop-now {
@@ -87,6 +87,7 @@
 .sale-menu2-inner h1 {
     font-size: 5rem;
     margin-top: 0.8rem;
+    font-family: 'Gilroy';
 }
 
 .sale-code {

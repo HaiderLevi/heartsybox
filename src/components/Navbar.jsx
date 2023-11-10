@@ -6,7 +6,7 @@ const Navbar = () => {
       <section className="top-banner-main">
         <div className="top-banner-parent">
           <div className="top-banner-child top-banner-logo">
-            <img src="/Heartsybox-Logo.png" alt="Heartsybox-Logo" />
+            <img src="/Heartsybox-Logo.svg" alt="Heartsybox-Logo" />
           </div>
           <div className="top-banner-child top-banner-shipping">
             <img src="/delivery-truck.png" alt="delivery-truck" />
@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="nav-search-menu">
+          {/* <div className="nav-search-menu">
             <div className="nav-search-input">
               <input
                 type="text"
@@ -68,7 +68,29 @@ const Navbar = () => {
                 className="nav-search-icon"
               />
             </div>
-          </div>
+          </div> */}
+        </div>
+      </nav>
+
+      <nav className="mobile-nav">
+        <div className="mobile-nav-main">
+          <ul className="mobile-nav-list">
+            <li className="mobile-nav-list-item">
+              <a href="#">Home</a>
+            </li>
+            <li className="mobile-nav-list-item">
+              <a href="#">Gifts</a>
+            </li>
+            <li className="mobile-nav-list-item">
+              <a href="#">GiftsPicker</a>
+            </li>
+            <li className="mobile-nav-list-item">
+              <a href="#">Blog</a>
+            </li>
+            <li className="mobile-nav-list-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </>

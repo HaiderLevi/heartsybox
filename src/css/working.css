@@ -1,7 +1,6 @@
 :root {
     --primary: #D29E84;
     --secondary: #415161;
-    --gilroy: Gilroy;
 }
 
 .main-working {
@@ -21,6 +20,10 @@
     padding-bottom: 1rem;
 }
 
+.working-header h1 span {
+    font-family: 'Tangerine';
+}
+
 .main-working-step {
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,10 @@
     font-size: 5.6rem;
     font-weight: 400;
     line-height: 6.2rem;
+}
+
+.main-working-step h1 span {
+    font-family: 'Tangerine';
 }
 
 .working-design-main {
@@ -169,14 +176,14 @@
 }
 
 .button-primary:hover {
-    color: var(--primary);
-    background: #FFF;
-    border: 1.5px solid var(--primary);
+    color: rgb(211, 86, 148);
+    background: #000;
+    border: 1.5px solid rgb(211, 86, 148);
     transition: 0.2s all ease;
 }
 
 .button-primary:hover .heart-svg {
-    fill: rgb(211, 12, 128) !important;
+    fill: rgb(211, 86, 148) !important;
     transition: 0.2s all ease;
 }
 
@@ -366,22 +373,21 @@
 @media only screen and (max-width: 1400px) {
     .working-design-main {
         align-items: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         padding: 0.5rem 0;
-        gap: 10rem;
     }
 
     .working-design-steps {
-        width: 90%;
+        /* width: 60%; */
         margin-inline: auto;
     }
 
     .working-header h1 {
-        font-size: 3.35rem;
+        font-size: 5rem;
     }
 
     .main-working-step h1 {
-        font-size: 2.7rem;
+        font-size: 3.5rem;
     }
 
     .step-header {
@@ -430,7 +436,7 @@
 
     .cards-main {
         /* flex-direction: column; */
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         width: 100%;
         margin-inline: auto;
     }
@@ -467,7 +473,22 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .working-design-main {
+        gap: 5rem;
+    }
+
+    .card-image {
+        height: 32.5rem;
+    }
+}
+
 @media only screen and (max-width: 992px) {
+    .working-design-main {
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+
     .working-header h1 {
         font-size: 3rem;
     }
@@ -478,6 +499,10 @@
 
     .working-design-steps h2 {
         font-size: 2.8rem;
+    }
+
+    .cards-main {
+        flex-wrap: wrap;
     }
 }
 
@@ -556,5 +581,14 @@
 
     .cards-root {
         padding: 1rem;
+    }
+
+    .card-image {
+        height: 27.5rem;
+    }
+
+    .card-detail {
+        padding: 2rem;
+        gap: 1rem;
     }
 }

@@ -1,7 +1,6 @@
 :root {
     --primary: #D29E84;
     --secondary: #415161;
-    --gilroy: Gilroy;
 }
 
 .main-services {
@@ -22,6 +21,8 @@
     border-radius: 1.2rem;
     border: 1.5px solid var(--primary);
     background: rgba(210, 158, 132, 0.16);
+    padding: 1rem;
+    text-align: center;
 }
 
 .services:nth-child(2) {
@@ -74,7 +75,6 @@
     .main-services {
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     .services {
@@ -106,6 +106,12 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .services p {
+        font-size: 1.8rem;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .services {
         width: 70%;
@@ -113,6 +119,10 @@
 
     .services:nth-child(2) {
         width: 70%;
+    }
+
+    .main-services {
+        flex-wrap: wrap;
     }
 }
 

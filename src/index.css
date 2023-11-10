@@ -15,7 +15,6 @@
 :root {
   --primary: #D29E84;
   --secondary: #415161;
-  --gilroy: Gilroy;
 }
 
 * {
@@ -40,7 +39,6 @@ h1 {
 
 .header-span {
   color: var(--primary);
-  font-family: 'Tangerine';
 }
 
 @media only screen and (max-width: 1440px) {

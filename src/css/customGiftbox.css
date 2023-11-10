@@ -1,11 +1,10 @@
 :root {
     --primary: #D29E84;
     --secondary: #415161;
-    --gilroy: Gilroy;
 }
 
 .main-custom-giftbox-section {
-    margin-top: 20rem;
+    margin-top: 15rem;
     min-height: 38rem;
     border-radius: 2.4rem;
     /* background: #E4CABD; */
@@ -26,6 +25,7 @@
     font-weight: 700;
     line-height: 7.2rem;
     max-width: 45rem;
+    font-family: 'Gilroy';
 }
 
 .custom-giftbox-child {
@@ -91,14 +91,14 @@
 }
 
 .input-button-primary:hover {
-    color: var(--primary);
-    background: #FFF;
-    border: 1.5px solid var(--primary);
+    color: rgb(211, 86, 148);
+    background: #000;
+    border: 1.5px solid rgb(211, 86, 148);
     transition: 0.2s all ease;
 }
 
 .input-button-primary:hover .heart-svg {
-    fill: rgb(211, 12, 128) !important;
+    fill: rgb(211, 86, 148) !important;
     transition: 0.2s all ease;
 }
 
