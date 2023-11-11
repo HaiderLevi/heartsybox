@@ -26,7 +26,7 @@ const Services = () => {
               />
             </svg>
           </div>
-          <h1>Delivering Quality Gifts</h1>
+          <h2>Delivering Quality Gifts</h2>
           <p>for you and your loved ones</p>
         </div>
         <div className="services">
@@ -51,7 +51,7 @@ const Services = () => {
               />
             </svg>
           </div>
-          <h1>Gifts for all occasions</h1>
+          <h2>Gifts for all occasions</h2>
           <p>occasional and seasonal gifts of all types </p>
         </div>
         <div className="services">
@@ -72,7 +72,7 @@ const Services = () => {
               />
             </svg>
           </div>
-          <h1>Great customer reviews</h1>
+          <h2>Great customer reviews</h2>
           <p>our customers love us</p>
         </div>
       </section>

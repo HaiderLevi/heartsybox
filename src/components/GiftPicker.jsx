@@ -17,7 +17,7 @@ const GiftPicker = () => {
             />
           </div>
           <div className="giftpicker-child">
-            <h1>GiftPicker: Your Personal Gifting Guide</h1>
+            <h2>GiftPicker: Your Personal Gifting Guide</h2>
             <p>
               Let GiftPicker recommend the perfect combination of flowers,
               chocolates, cards, and gifts to express your unique sentiment.

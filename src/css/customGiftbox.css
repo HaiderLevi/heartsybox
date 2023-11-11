@@ -24,8 +24,7 @@
     font-size: 5.8rem;
     font-weight: 700;
     line-height: 7.2rem;
-    max-width: 45rem;
-    font-family: 'Gilroy';
+    max-width: 50rem;
 }
 
 .custom-giftbox-child {
@@ -52,8 +51,8 @@
 
 .giftbox-image {
     position: absolute;
-    right: -10rem;
-    top: -15rem;
+    right: -9.5rem;
+    top: -15.5rem;
 }
 
 .input-giftbox {

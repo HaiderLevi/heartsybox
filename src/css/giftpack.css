@@ -70,10 +70,9 @@
     justify-content: center;
 }
 
-.giftpack-child h1 {
+.giftpack-child h2 {
     font-size: 4.2rem;
     font-weight: 700;
-    font-family: 'Gilroy';
 }
 
 .giftpack-child p {
@@ -164,7 +163,7 @@
         row-gap: 5rem;
     }
 
-    .giftpack-child h1 {
+    .giftpack-child h2 {
         font-size: 3.2rem;
     }
 
@@ -199,7 +198,7 @@
         line-height: 2rem;
     }
 
-    .giftpack-child h1 {
+    .giftpack-child h2 {
         font-size: 2.8rem;
     }
 

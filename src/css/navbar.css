@@ -71,7 +71,7 @@
 .nav-menu-list {
     list-style: none;
     display: inline-flex;
-    column-gap: 1.8rem;
+    column-gap: 2rem;
 }
 
 .nav-menu-list-item {

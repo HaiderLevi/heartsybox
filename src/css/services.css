@@ -12,7 +12,7 @@
 }
 
 .services {
-    width: 45.3rem;
+    width: 30%;
     height: 40rem;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 .services:nth-child(2) {
-    width: 58.5rem;
+    width: 40%;
 }
 
 .services-image {
@@ -57,12 +57,11 @@
     height: 16.2rem;
 }
 
-.services h1 {
+.services h2 {
     font-size: 2.6rem;
     font-weight: 600;
     line-height: normal;
     margin-bottom: 1rem;
-    font-family: 'Gilroy';
 }
 
 .services p {
@@ -159,7 +158,7 @@
         width: 100%;
     }
 
-    .services h1 {
+    .services h2 {
         font-size: 2.2rem;
     }
 

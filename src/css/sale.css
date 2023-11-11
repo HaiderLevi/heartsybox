@@ -45,10 +45,9 @@
     font-size: 2.7rem;
 }
 
-.sale-menu-text h1 {
+.sale-menu-text h2 {
     font-size: 5.5rem;
     margin-top: 0.8rem;
-    font-family: 'Gilroy';
 }
 
 .sale-shop-now {
@@ -84,10 +83,9 @@
     font-size: 2.7rem;
 }
 
-.sale-menu2-inner h1 {
+.sale-menu2-inner h2 {
     font-size: 5rem;
     margin-top: 0.8rem;
-    font-family: 'Gilroy';
 }
 
 .sale-code {
@@ -110,7 +108,7 @@
         font-size: 2.5rem;
     }
 
-    .sale-menu-text h1 {
+    .sale-menu-text h2 {
         font-size: 4rem;
     }
 
@@ -118,7 +116,7 @@
         font-size: 2.5rem;
     }
 
-    .sale-menu2-inner h1 {
+    .sale-menu2-inner h2 {
         font-size: 4rem;
     }
 
@@ -153,7 +151,7 @@
         font-size: 2.2rem;
     }
 
-    .sale-menu-text h1 {
+    .sale-menu-text h2 {
         font-size: 3.2rem;
     }
 
@@ -161,7 +159,7 @@
         font-size: 2.2rem;
     }
 
-    .sale-menu2-inner h1 {
+    .sale-menu2-inner h2 {
         font-size: 3.2rem;
     }
 
@@ -183,7 +181,7 @@
         font-size: 2rem;
     }
 
-    .sale-menu-text h1 {
+    .sale-menu-text h2 {
         font-size: 3rem;
     }
 
@@ -191,7 +189,7 @@
         font-size: 2rem;
     }
 
-    .sale-menu2-inner h1 {
+    .sale-menu2-inner h2 {
         font-size: 3rem;
     }
 

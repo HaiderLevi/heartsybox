@@ -108,7 +108,7 @@ const Working = () => {
 
         <div className="note-main">
           <div className="note-detail">
-            <h1>Leave a Note?</h1>
+            <h2>Leave a Note?</h2>
             <p>
               Words are the bridge between hearts. Select a card that resonates
               with your emotions. You can leave it as a blank canvas, ready for
@@ -153,7 +153,7 @@ const Working = () => {
         {showWorkingStep2 && (
           <div className="cards-root">
             <div className="gift-text">
-              <h1>Special Chocolate and Flowers Gift</h1>
+              <h2>Special Chocolate and Flowers Gift</h2>
               <p>
                 Words are the bridge between hearts. Select a card that
                 resonates with your emotions. You can leave it as a blank

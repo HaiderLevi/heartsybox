@@ -17,7 +17,7 @@ const Giftpack = () => {
             />
           </div>
           <div className="giftpack-child">
-            <h1>Rascal Gift Pack</h1>
+            <h2>Rascal Gift Pack</h2>
             <p>
               Handmade companions and toys that ignite young imaginations and
               bring joy.
@@ -50,7 +50,7 @@ const Giftpack = () => {
 
         <div className="giftpack-parent">
           <div className="giftpack-child giftpack-child-odd">
-            <h1>Rascal Gift Pack</h1>
+            <h2>Rascal Gift Pack</h2>
             <p>
               Handmade companions and toys that ignite young imaginations and
               bring joy.
@@ -97,7 +97,7 @@ const Giftpack = () => {
             />
           </div>
           <div className="giftpack-child">
-            <h1>Rascal Gift Pack</h1>
+            <h2>Rascal Gift Pack</h2>
             <p>
               Handmade companions and toys that ignite young imaginations and
               bring joy.

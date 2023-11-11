@@ -39,11 +39,11 @@
 }
 
 .giftpicker-child:nth-child(1) {
-    width: 50rem;
+    width: 60rem;
 }
 
 .giftpicker-child:nth-child(2) {
-    width: 65rem;
+    width: 70rem;
     align-self: center;
 }
 
@@ -52,12 +52,11 @@
     height: auto;
 }
 
-.giftpicker-child:nth-child(2) h1 {
+.giftpicker-child:nth-child(2) h2 {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 6rem;
     margin-bottom: 2rem;
-    font-family: 'Gilroy';
 }
 
 .giftpicker-child:nth-child(2) p {
@@ -128,7 +127,7 @@
         font-size: 3.6rem;
     }
 
-    .giftpicker-child:nth-child(2) h1 {
+    .giftpicker-child:nth-child(2) h2 {
         font-size: 3rem;
     }
 
@@ -189,7 +188,7 @@
         padding: 1rem;
     }
 
-    .giftpicker-child:nth-child(2) h1 {
+    .giftpicker-child:nth-child(2) h2 {
         font-size: 2.4rem;
         line-height: 3rem;
     }

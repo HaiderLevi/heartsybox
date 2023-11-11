@@ -35,7 +35,7 @@
 
 .categories-parent {
     display: flex;
-    gap: 7.5rem;
+    gap: 10rem;
     /* flex-wrap: wrap; */
 }
 
@@ -45,7 +45,7 @@
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .categories-child>* {

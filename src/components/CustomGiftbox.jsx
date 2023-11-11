@@ -6,9 +6,9 @@ const CustomGiftbox = () => {
       <section className="main-custom-giftbox-section">
         <div className="custom-giftbox-parent">
           <div className="custom-giftbox-child giftbox-child1">
-            <h1 className="custom-giftbox-header">
+            <h2 className="custom-giftbox-header">
               Let’s create your custom gift box
-            </h1>
+            </h2>
             <img src="/gift-box.png" alt="gift-box" className="gift-box" />
           </div>
           <div className="custom-giftbox-child giftbox-child2">
