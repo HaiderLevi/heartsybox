@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 576px) {
     .main-banner {
-        margin-top: 2rem;
+        margin-top: 10rem;
         width: 99.5%;
         margin-inline: auto;
     }
